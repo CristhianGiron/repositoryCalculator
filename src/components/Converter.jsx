@@ -175,7 +175,7 @@ const Converter = () => {
                 </Card>
               </Collapse>
             </div>}
-          <div className='text-xl text-black'>Video</div>
+          
           <iframe className='w-full h-auto' src="https://www.youtube.com/embed/G3o2Yv7M4pM" title="Conversiones entre sistemas de numeración (Binario, octal y hexadecimal a decimal)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
         </div>
