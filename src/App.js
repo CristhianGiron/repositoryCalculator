@@ -41,7 +41,7 @@ function App() {
               <Route path="/content1" element={<MainContent2 />} />
               <Route path="/content3" element={<MainContent3 />} />
             </Routes>
-            <div className="bg-black text-white text-center -ml-4 -mr-4 absolute bottom-0 left-0 w-[100vw]">Cristhian Girón @2024 Allright Reserved</div>
+            <div className="bg-black text-white text-center -ml-4 -mr-4 absolute bottom-0 left-0 w-[100vw]">Power By HGlabs. Cristhian Girón @2024 Allright Reserved</div>
           </main>
         </div>
       </div>
