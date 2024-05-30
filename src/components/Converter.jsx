@@ -176,8 +176,15 @@ const Converter = () => {
               </Collapse>
             </div>}
             <div className='text-2xl text-black'>Video</div>
-            <video src="https://www.youtube.com/watch?v=G3o2Yv7M4pM"></video>
-
+            <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/watch?v=G3o2Yv7M4pM"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="Embedded YouTube"
+            />
 
         </div>
 
