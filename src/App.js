@@ -53,7 +53,7 @@ function App() {
           </main>
         </div>
       </div>
-      <Alert open={openAlert} className="mt-auto" onClose={() => setOpenAlert(false)}>
+      <Alert open={openAlert} className="mt-auto absolute" onClose={() => setOpenAlert(false)}>
           <CubeTransparentIcon className="mb-4 h-12 w-12" />
           <Typography variant="h6" className="mb-1">
             Upgrade to PRO
