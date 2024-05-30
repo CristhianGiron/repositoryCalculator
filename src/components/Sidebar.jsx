@@ -6,6 +6,7 @@ import {
   Bars3Icon,
   XMarkIcon,
   PuzzlePieceIcon,
+  PhoneIcon,
 } from "@heroicons/react/24/outline";
 import { IconButton } from '@material-tailwind/react';
 
@@ -53,7 +54,7 @@ const Sidebar = ({ SendOpen, indice }) => {
           {isOpen && <span className='ml-3 min-w-60'>Operations Binary</span>}
         </div>
         <div onClick={() => navigateTo('/content3', 4)} className={`py-2 px-4 rounded hover:bg-gray-700 flex transition-width duration-700 cursor-pointer ${!isOpen ? " justify-center" : 'justify-start'}`}>
-          <CalculatorIcon className='min-w-6 h-6' />
+          <PhoneIcon className='min-w-6 h-6' />
           {isOpen && <span className='ml-3 min-w-60'>Contact</span>}
         </div>
       </nav>
