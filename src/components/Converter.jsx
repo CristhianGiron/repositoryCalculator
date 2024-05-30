@@ -175,7 +175,7 @@ const Converter = () => {
                 </Card>
               </Collapse>
             </div>}
-            <div className='text-2xl'>Video</div>
+            <div className='text-2xl text-black'>Video</div>
             <video src="https://www.youtube.com/watch?v=G3o2Yv7M4pM"></video>
 
 
