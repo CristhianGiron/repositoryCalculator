@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
+/* App.css */
+/* Cambia el color de la barra de desplazamiento y el color de fondo del track */
+/* Utiliza ::-webkit-scrollbar para navegadores webkit como Chrome y Safari */
+/* Utiliza scrollbar-color para navegadores que admiten la propiedad */
+
+
+
+/* Para navegadores webkit (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 10px;
+  /* Ancho de la barra de desplazamiento */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+::-webkit-scrollbar-thumb { 
+  background-image: linear-gradient(to top, #4E9F3D 10%, #00b88a 90%);
+  /* Color del thumb (barra de desplazamiento) */
+  border-radius: 6px;
+  /* Borde redondeado del thumb */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+::-webkit-scrollbar-track {
+  background: #191A19;
+  /* Color de fondo del track (área del scrollbar sin la barra de desplazamiento) */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Para navegadores que admiten la propiedad scrollbar-color */
+/* Puedes ajustar la altura y el ancho según tus preferencias */
+/* La sintaxis es scrollbar-color: thumbColor trackColor; */
+/* thumbColor es el color del thumb (barra de desplazamiento) y trackColor es el color del track */
+/* thumbColor debe ser especificado antes que trackColor */
+/* Asegúrate de agregar también las clases CSS de compatibilidad con navegadores webkit si es necesario */
+/* La siguiente regla es un ejemplo, ajusta los valores según tus preferencias */
+.scrollPersonalize {
+  scrollbar-color: #4caf50 #f1f1f1;
+
 }
 
-.App-link {
-  color: #61dafb;
+@font-face {
+  font-family: 'Retosta';
+  src: url('./assets/retosta/Retosta.otf');
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.market{
+  font-family: 'Retosta' !important;
+}
+.app{
+  background-image: url(./assets/bgDark.png);
+  background-repeat: no-repeat;
+  background-color: #040c1b
+}
+.appb{
+  background-image: url(./assets/bgLight.png);
+  background-repeat: no-repeat;
+  background-color: #ffffff
+}
+
+/* Estilo para el icono SVG */
+.icono-svg-f {
+  fill: #3478ff; /* Color inicial del icono */
+  transition: fill 0.3s;
+  height: 17px;
+  width: 17px; /* Transición suave para el cambio de color */
+}
+
+/* Estilo para el contenedor div cuando se hace hover */
+.div-hover-f:hover .icono-svg-f {
+  fill: rgb(255, 255, 255); /* Cambiar el color del icono a azul */
+}
+
+/* Estilo para el icono SVG */
+.icono-svg-t {
+  fill: #34b1ff; /* Color inicial del icono */
+  transition: fill 0.3s;
+  height: 25px;
+  width: 25px; /* Transición suave para el cambio de color */
+}
+
+/* Estilo para el contenedor div cuando se hace hover */
+.div-hover-t:hover .icono-svg-t {
+  fill: rgb(255, 255, 255); /* Cambiar el color del icono a azul */
+}
+
+/* Estilo para el icono SVG */
+.icono-svg-d {
+  fill: #ff34b5; /* Color inicial del icono */
+  transition: fill 0.3s;
+  height: 20px;
+  width: 20px; /* Transición suave para el cambio de color */
+}
+
+/* Estilo para el contenedor div cuando se hace hover */
+.div-hover-d:hover .icono-svg-d {
+  fill: rgb(255, 255, 255); /* Cambiar el color del icono a azul */
+}
+
+/* Estilo para el icono SVG */
+.icono-svg-l {
+  fill: #3467ff; /* Color inicial del icono */
+  transition: fill 0.3s;
+  height: 20px;
+  width: 20px; /* Transición suave para el cambio de color */
+}
+
+/* Estilo para el contenedor div cuando se hace hover */
+.div-hover-l:hover .icono-svg-l {
+  fill: rgb(255, 255, 255); /* Cambiar el color del icono a azul */
 }
