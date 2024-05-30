@@ -28,10 +28,10 @@ function App() {
         <Sidebar SendOpen={handleSidebarToggle} indice={handleOptionChange} />
         <div className={`flex-1 pl-16`}>
           <header className="flex items-center justify-between h-16 bg-gray-900 text-white shadow px-4">
-            {!isOpenSidebar ? <span className="text-xl font-bold">Calculators</span> : <div></div>}
+            {!isOpenSidebar ? <span className="text-xl font-bold">Calculators (Beta)</span> : <div></div>}
             <nav>
-              <Link to="/profile" className="text-gray-800 hover:text-gray-600">Profile</Link>
-              <Link to="/logout" className="ml-4 text-gray-800 hover:text-gray-600">Logout</Link>
+              <Link to="/profile" className="text-white hover:text-gray-600">Profile</Link>
+              <Link to="/logout" className="ml-4 text-white hover:text-gray-600">Logout</Link>
             </nav>
           </header>
           <main className="p-4 overflow-y-scroll h-[90vh]">
