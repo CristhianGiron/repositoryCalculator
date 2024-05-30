@@ -24,6 +24,12 @@ function App() {
     setOption(index);
   };
 
+  const [open, setOpen] = useState(0);
+  const [openAlert, setOpenAlert] = useState(true);
+
+  const handleOpen = (value) => {
+    setOpen(open === value ? 0 : value);
+  };
   return (
     <Router>
       <div className="flex h-screen overflow-y-hidden">
