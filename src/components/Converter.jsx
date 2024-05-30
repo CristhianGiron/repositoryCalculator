@@ -166,7 +166,7 @@ const Converter = () => {
           {
 
             conversions && <div>
-              <Button className={`capitalize mt-10 transition-all duration-700 ${open ? 'w-full' : ''}`} onClick={toggleOpen}>Pasos de conversion</Button>
+              <Button className={`capitalize mt-10 transition-all duration-700 absolute -z-50 ${open ? 'w-full' : ''}`} onClick={toggleOpen}>Pasos de conversion</Button>
               <Collapse open={open}>
                 <Card className="my-4 mx-auto w-full">
                   <CardBody>
