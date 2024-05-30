@@ -36,8 +36,8 @@ function App() {
           </header>
           <main className="p-4 overflow-y-scroll h-[90vh]">
             <Routes>
-              <Route path="/" element={<DefaultContent />} />
-              <Route path="/content1" element={<MainContent1 />} />
+              <Route path="/content1" element={<DefaultContent />} />
+              <Route path="/" element={<MainContent1 />} />
               <Route path="/content2" element={<MainContent2 />} />
               <Route path="/content3" element={<MainContent3 />} />
             </Routes>
