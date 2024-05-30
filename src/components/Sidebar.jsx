@@ -26,12 +26,7 @@ const Sidebar = ({ SendOpen, indice }) => {
   };
 
 
-  const [open, setOpen] = React.useState(0);
-  const [openAlert, setOpenAlert] = React.useState(true);
 
-  const handleOpen = (value) => {
-    setOpen(open === value ? 0 : value);
-  };
   return (
     <div className={`flex flex-col absolute z-[1000] ${isOpen ? 'lg:w-64 w-96' : 'w-16'} h-full bg-gray-800 text-white transition-width duration-700`}>
       <div className="flex items-center justify-between h-16 px-4 bg-gray-900">
