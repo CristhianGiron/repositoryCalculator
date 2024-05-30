@@ -25,7 +25,7 @@ const Sidebar = ({ SendOpen, indice }) => {
   };
 
   return (
-    <div className={`flex flex-col absolute z-1000 ${isOpen ? 'lg:w-64 w-96' : 'w-16'} h-full bg-gray-800 text-white transition-width duration-700`}>
+    <div className={`flex flex-col absolute z-[1000] ${isOpen ? 'lg:w-64 w-96' : 'w-16'} h-full bg-gray-800 text-white transition-width duration-700`}>
       <div className="flex items-center justify-between h-16 px-4 bg-gray-900">
         {isOpen && <span className="text-xl font-bold">Calculators</span>}
 
