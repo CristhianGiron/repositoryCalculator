@@ -36,9 +36,9 @@ function App() {
           </header>
           <main className="p-4 overflow-y-scroll h-[90vh]">
             <Routes>
-              <Route path="/content1" element={<DefaultContent />} />
+              <Route path="/content2" element={<DefaultContent />} />
               <Route path="/" element={<MainContent1 />} />
-              <Route path="/content2" element={<MainContent2 />} />
+              <Route path="/content1" element={<MainContent2 />} />
               <Route path="/content3" element={<MainContent3 />} />
             </Routes>
             <div className="bg-black text-white text-center -ml-4 -mr-4 absolute bottom-0 left-0 w-[100vw]">Cristhian Girón @2024 Allright Reserved</div>
